@@ -1,0 +1,85 @@
+#root {
+  font-family: "Inter", system-ui;
+  font-style: normal;
+  width: 317px;
+  height: 780px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #1A1B21;
+  font-size: 12px;
+}
+
+.header-copy{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-copy > h1{ 
+  font-size: 25px;
+}
+.header-copy > p{
+  margin-top: -15px; 
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #F3BF99;
+}
+
+.header-copy > a {
+  color: #F5F5F5;
+}
+
+.actions{
+  padding: 10px 35px;
+  display:flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.main-btn{
+  border-radius: 6px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+}
+.icon-main {
+  color: #1A1B21;
+}
+
+.secondary-btn{
+  width: 115px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 9px 13px 9px 11px;
+  border-radius: 6px;
+  background: #5093E2;
+}
+
+.main-content{
+  text-align: left;
+  padding: 0px 10px;
+  margin-top: -10px;
+}
+
+.main-content > div > h4 {
+  font-size: 18px;
+}
+
+.main-content > p{
+  color: #DCDCDC;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #161619;
+
+}
+
+footer > img {
+  width: 25px;
+}
